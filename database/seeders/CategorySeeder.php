@@ -18,20 +18,20 @@ class CategorySeeder extends Seeder
             [
                 'name' => 'Programming',
                 'slug' => 'programming',
-                'created_at' => Carbon::now() ,
-                'update_at' => Carbon::now() ,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
             ],
             [
                 'name' => 'Digital Marketing',
                 'slug' => 'digital-marketing',
-                'created_at' => Carbon::now() ,
-                'update_at' => Carbon::now() ,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
             ],
             [
                 'name' => 'Product Design',
                 'slug' => 'product-design',
-                'created_at' => Carbon::now() ,
-                'update_at' => Carbon::now() ,
+                'created_at' => Carbon::now(),
+                'updated_at' => Carbon::now(),
             ],
         ]);
     }
