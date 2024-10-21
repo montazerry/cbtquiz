@@ -31,7 +31,7 @@ class RolePermissionSeeder extends Seeder
         }
 
         $teacerRole = Role::create([
-            'name' => 'teacer'
+            'name' => 'teacher'
         ]);
 
         $teacerRole->givePermissionTo([
@@ -53,7 +53,7 @@ class RolePermissionSeeder extends Seeder
         $user = User::create([
             'name' => 'Momon',
             'email' => 'momon@gmail.com',
-            'password' => bcrypt('123456') ,
+            'password' => bcrypt('admin1234'),
         ]);
 
         $user->assignRole($teacerRole);
